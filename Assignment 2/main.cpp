@@ -7,7 +7,8 @@
 
     Date Due: 9/15/2023
 
-    Purpose: Compiler Training
+    Purpose: This program calculates a powerlifter's total
+    lifts and formats the output into a report.
 
     Created by scott sheble on 8/28/23.
 *********************************************************/
