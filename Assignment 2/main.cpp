@@ -40,6 +40,13 @@ int main()
     powerliftingTotal = (maxSquat + maxBench + maxDeadlift);
     wilksScore = powerliftingTotal * wilksCoefficient;
     std::cout << endl;
+    
+    /**
+     *  Allocating number of spaces for output reports left & right columns
+     *  and creating format for console output.
+     *  ...
+     */
+    
     std::cout << left << setw(leftColumnSpaces) << "Max Squat: " << right << setw(rightColumnSpaces)  << maxSquat << std::endl;
     std::cout << left << setw(leftColumnSpaces) << "Max Bench Press: " << right << setw(rightColumnSpaces)  << maxBench << std::endl;
     std::cout << left << setw(leftColumnSpaces) << "Max Deadlift: " << right << setw(rightColumnSpaces)  << maxDeadlift << std::endl;
