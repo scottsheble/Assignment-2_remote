@@ -22,9 +22,9 @@ int maxSquat = 0;
 int maxBench = 0;
 int maxDeadlift = 0;
 int powerliftingTotal = 0;
-static int LEFT_COLUMN_SPACES = 20;
-static int RIGHT_COLUMN_SPACES = 8;
-static float WILKS_COEFFICIENT = 0.5976;
+const int LEFT_COLUMN_SPACES = 20;
+const int RIGHT_COLUMN_SPACES = 8;
+const float WILKS_COEFFICIENT = 0.5976;
 float wilksScore = 0;
 
 
